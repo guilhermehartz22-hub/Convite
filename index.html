@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Uma perguntinha ❤️</title>
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Fundo -->
+
+    <div id="background"></div>
+
+    <!-- Corações -->
+
+    <div id="heart-container"></div>
+
+
+
+    <!-- CARD PRINCIPAL -->
+
+    <main class="card">
+
+
+
+        <!-- Barra -->
+
+        <div class="progress">
+
+            <div class="progress-bar"
+                 id="progressBar"></div>
+
+        </div>
+
+
+
+        <!-- Página 1 -->
+
+        <section class="page active"
+                 id="page1">
+
+            <h1>
+
+                Oi, Adriele...
+
+            </h1>
+
+            <p>
+
+                Tenho uma pergunta pra você👉👈.
+
+            </p>
+
+            <img src="assets/gato1.png"
+                 id="gatoInicio"
+                 class="cat">
+
+            <button id="continuar">
+
+                Continuar →
+
+            </button>
+
+        </section>
+
+
+
+
+
+        <!-- Página 2 -->
+
+        <section class="page"
+                 id="page2">
+
+            <h1>
+
+                Você aceitaria sair comigo?
+
+            </h1>
+
+            <img src="assets/rosa.png"
+                 class="rose">
+
+            <p id="mensagem">
+
+                Prometo que vai ser divertido ✨
+
+            </p>
+
+            <div class="buttons">
+
+                <button id="sim">
+
+                    SIM ❤️
+
+                </button>
+
+                <button id="nao">
+
+                    NÃO 😢
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+
+
+        <!-- Página 3 -->
+
+        <section class="page"
+                 id="page3">
+
+            <h1>
+
+                Quando a princesa estará disponível? 👑
+
+            </h1>
+
+            <div class="inputs">
+
+                <label>
+
+                    Data
+
+                </label>
+
+                <input type="date"
+                       id="data">
+
+                <label>
+
+                    Horário
+
+                </label>
+
+                <input type="time"
+                       id="hora">
+
+            </div>
+
+            <button id="proximo1">
+
+                Próximo →
+
+            </button>
+
+        </section>
+
+
+
+
+
+        <!-- Página 4 -->
+
+        <section class="page"
+                 id="page4">
+
+            <h1>
+
+                O que você prefere fazer?
+
+            </h1>
+
+            <div class="cards">
+
+                <label class="option">
+
+                    <input type="checkbox" value="Cinema">
+
+                    🍿
+
+                    <span>Cinema</span>
+
+                </label>
+
+                <label class="option">
+
+                    <input type="checkbox" value="Hamburgueria">
+
+                    🍔
+
+                    <span>Hamburgueria</span>
+
+                </label>
+
+                <label class="option">
+
+                    <input type="checkbox" value="Pizzaria">
+
+                    🍕
+
+                    <span>Pizzaria</span>
+
+                </label>
+
+                <label class="option">
+
+                    <input type="checkbox" value="Sorveteria">
+
+                    🍨
+
+                    <span>Sorveteria</span>
+
+                </label>
+
+                <label class="option">
+
+                    <input type="checkbox" value="Shopping">
+
+                    🛍️
+
+                    <span>Shopping</span>
+
+                </label>
+
+                <label class="option">
+
+                    <input type="checkbox" value="Parque">
+
+                    🌳
+
+                    <span>Parque</span>
+
+                </label>
+
+            </div>
+
+            <button id="proximo2">
+
+                Continuar →
+
+            </button>
+
+        </section>
+
+
+
+
+
+        <!-- Página 5 -->
+
+        <section class="page"
+                 id="page5">
+
+            <h1>
+
+                Perfeito ❤️
+
+            </h1>
+
+            <p>
+
+                Agora já tenho tudo que preciso.
+
+            </p>
+
+            <p>
+
+                Só falta uma coisinha...
+
+            </p>
+
+            <button id="abrirCarta">
+
+                Continuar →
+
+            </button>
+
+        </section>
+
+
+
+
+
+        <!-- Página Final -->
+
+        <section class="page"
+                 id="page6">
+
+            <div class="envelope">
+
+                <div class="front"></div>
+
+                <div class="letter">
+
+                    <h2>
+
+                        💌
+
+                    </h2>
+
+                    <p>
+
+                        Adriele,
+
+                        
+
+                        Eu queria te chamar para sair de um jeito diferente.
+
+                       
+
+                        Então pensei...
+
+                       
+
+                        Por que não fazer um site?
+
+                        
+
+                        Espero que ele tenha conseguido tirar um sorriso seu, porque fiz tudo isso pensando em você.
+
+                        
+
+                        Independentemente da resposta, obrigado por ter chegado até aqui.
+
+                        
+
+                        ❤️
+
+                    </p>
+
+                    <img src="assets/gato2.png"
+                         class="catFinal">
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+    </main>
+
+
+
+    <!-- Explosão de corações -->
+
+    <div id="explosion"></div>
+
+  
+    <!-- Biblioteca do EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+    emailjs.init({
+        publicKey: "JsK_73dX57K6TR0R0"
+    });
+</script>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
